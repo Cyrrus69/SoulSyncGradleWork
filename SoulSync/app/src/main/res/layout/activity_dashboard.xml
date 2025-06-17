@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_light"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_below="@id/tvGreeting"
+        android:layout_marginTop="40dp">
+
+        <!-- RELAX Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardRelax"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            app:cardBackgroundColor="@color/primary_purple"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_relax"
+                    android:tint="@color/primary_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RELAX"
+                    android:textColor="@color/primary_light"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- MEMORY Card (Disabled) -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardMemory"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.5"
+            app:cardBackgroundColor="@color/primary_purple"
+            app:cardCornerRadius="16dp">
+
+            <!-- Same structure as RELAX card -->
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- MUSIC Card (Disabled) -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardMusic"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:alpha="0.5"
+            app:cardBackgroundColor="@color/primary_purple"
+            app:cardCornerRadius="16dp">
+
+            <!-- Same structure as RELAX card -->
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</RelativeLayout>

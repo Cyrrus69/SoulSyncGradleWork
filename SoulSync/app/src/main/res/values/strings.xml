@@ -1,0 +1,14 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">SoulSync</string>
+
+    <!-- Screens -->
+    <string name="splash_title">SoulSync\nEchoes of Care</string>
+    <string name="intro_text">CONNECTING SOULS TO TECHNOLOGY</string>
+    <string name="language_prompt">Select a language</string>
+    <string name="signin_hint">PHONE NO./EMAIL ID</string>
+
+    <!-- Common -->
+    <string name="btn_continue">CONTINUE</string>
+    <string name="btn_submit">SUBMIT</string>
+</resources>

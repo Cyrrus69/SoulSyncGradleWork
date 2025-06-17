@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_purple">#673AB7</color>
+    <color name="primary_dark">#212121</color>
+    <color name="primary_light">#EDE7F6</color>
+
+    <!-- Feedback Colors -->
+    <color name="error_red">#FF5252</color>
+    <color name="success_green">#4CAF50</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_dark">#121212</color>
+    <color name="bg_gradient_start">#1A2980</color>
+    <color name="bg_gradient_end">#26D0CE</color>
+</resources>
